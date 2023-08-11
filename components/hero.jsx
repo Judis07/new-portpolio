@@ -1,3 +1,4 @@
+import Button from "./button";
 import Container from "./container";
 import Header from "./header";
 
@@ -27,9 +28,7 @@ const HeroSection = () => {
           </p>
 
           <div>
-            <button className="bg-black text-white py-4 px-8 font-bold">
-              see my work
-            </button>
+            <Button />
           </div>
         </div>
       </Container>

@@ -1,3 +1,6 @@
+"use client";
+import scrollTo from "@/utils/scrollTo";
+
 const Header = () => {
   return (
     <header className="flex justify-between items-center">
@@ -7,7 +10,12 @@ const Header = () => {
         <ul className="flex gap-8 font-bold">
           <li className="cursor-pointer ">
             <span className="relative before:block before:absolute before:top-[17px] before:h-[5px]  before:-inset-1  before:bg-[#A8B4FF] relative inline-block">
-              <span className="relative">my work</span>
+              <span
+                className="relative"
+                onClick={() => scrollTo("work-section")}
+              >
+                my work
+              </span>
             </span>
           </li>
           <li className="cursor-pointer hover:underline">
