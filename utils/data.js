@@ -1,0 +1,16 @@
+export const skills = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "React JS",
+  "Next JS",
+  "Gatsby",
+  "Tailwind",
+  "SASS",
+  "Node JS",
+  "Express",
+  "MongoDB",
+  "GIT",
+  "GITHUB",
+  "Vercel",
+];
