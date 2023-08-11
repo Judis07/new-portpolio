@@ -4,9 +4,17 @@ const Header = () => {
       <h2 className="font-bold text-2xl">Arvind M.</h2>
 
       <nav>
-        <ul className="flex gap-4">
-          <li className="cursor-pointer hover:underline">my work</li>
-          <li className="cursor-pointer hover:underline">get in touch</li>
+        <ul className="flex gap-8 font-bold">
+          <li className="cursor-pointer ">
+            <span className="relative before:block before:absolute before:top-[17px] before:h-[5px]  before:-inset-1  before:bg-[#A8B4FF] relative inline-block">
+              <span className="relative">my work</span>
+            </span>
+          </li>
+          <li className="cursor-pointer hover:underline">
+            <span className="relative before:block before:absolute before:top-[17px] before:h-[5px]  before:-inset-1  before:bg-[#A8B4FF] relative inline-block">
+              <span className="relative">get in touch</span>
+            </span>
+          </li>
         </ul>
       </nav>
     </header>
