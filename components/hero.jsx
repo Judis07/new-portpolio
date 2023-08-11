@@ -10,11 +10,12 @@ const HeroSection = () => {
         <div className="flex flex-col justify-center gap-8    h-full w-2/4">
           <h1 className="font-bold text-5xl leading-normal">
             Hi, I'm Arvind M,
-            <span className="before:block before:absolute before:-inset-1  before:bg-[#A8B4FF] relative inline-block">
+            <span className="block">Senior Frontend Developer</span>
+            {/* <span className="before:block before:absolute before:-inset-1  before:bg-[#A8B4FF] relative inline-block">
               <span className="relative text-white">
                 Senior Frontend Developer
               </span>
-            </span>
+            </span> */}
           </h1>
 
           <p className="leading-normal text-base">
