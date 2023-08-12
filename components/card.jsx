@@ -5,16 +5,22 @@ const Card = ({ title, skills, liveLink, githubLink, previewImage }) => {
   return (
     <div className="shadow-md rounded-lg	overflow-hidden flex flex-col">
       <div className="h-[15rem]">
-        <Image
-          src={previewImage ? previewImage : "/landingPreview.svg"}
-          width={300}
-          height={200}
-          alt=""
-        />
+        <a href={liveLink} target="_blank" rel="noopener noreferrer">
+          <Image
+            src={previewImage ? previewImage : "/landingPreview.svg"}
+            width={300}
+            height={200}
+            alt=""
+          />
+        </a>
       </div>
 
       <div className="p-4 basis-1/4">
-        <h3 className="font-bold mb-2 text-xl">{title}</h3>
+        <h3 className="font-bold mb-2 text-xl hover:text-blue-700">
+          <a href={liveLink} target="_blank" rel="noopener noreferrer">
+            {title}
+          </a>
+        </h3>
         <div className="flex mb-4  gap-3">
           <a
             href={liveLink}

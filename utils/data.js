@@ -18,15 +18,6 @@ export const skills = [
 
 export const professionalProjects = [
   {
-    title: "iion Inventory Discovery Tool",
-    skills: ["Next Js", "CSS", "SASS", "Ant Design", "MongoDB", "Vercel"],
-    liveLink: "https://idt.iion.io/dashboard",
-    githubLink: "",
-    previewImage:
-      "https://res.cloudinary.com/dyvivj6d5/image/upload/v1691848570/Screenshot_2023-08-12_at_7.26.03_PM_jbenmc.png",
-  },
-
-  {
     title: "iion Mobile Game Monetization",
     skills: [
       "Next Js",
@@ -41,6 +32,15 @@ export const professionalProjects = [
     githubLink: "",
     previewImage:
       "https://res.cloudinary.com/dyvivj6d5/image/upload/v1691848629/Screenshot_2023-08-12_at_7.27.04_PM_bnrppz.png",
+  },
+
+  {
+    title: "iion Inventory Discovery Tool",
+    skills: ["Next Js", "CSS", "SASS", "Ant Design", "MongoDB", "Vercel"],
+    liveLink: "https://idt.iion.io/dashboard",
+    githubLink: "",
+    previewImage:
+      "https://res.cloudinary.com/dyvivj6d5/image/upload/v1691848570/Screenshot_2023-08-12_at_7.26.03_PM_jbenmc.png",
   },
 
   {
