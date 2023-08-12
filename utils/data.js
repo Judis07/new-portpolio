@@ -58,10 +58,36 @@ export const professionalProjects = [
       "Ant Design",
       "Markdown",
       "MongoDB",
+      "Figma",
       "Vercel",
     ],
     liveLink: "https://cpmcalculators.com/",
     githubLink: "",
+    previewImage: "",
+  },
+];
+
+export const personalProjects = [
+  {
+    title: "Cryptoart",
+    skills: ["HTML", "CSS", "Javascript", "Vercel"],
+    liveLink: "https://cryptocart.vercel.app/",
+    githubLink: "https://github.com/Judis07/crypto-cart",
+    previewImage: "",
+  },
+  {
+    title: "ChatApp Landing Page",
+    skills: ["HTML", "CSS", "Figma", "Vercel"],
+    liveLink: "https://chat-app-landing-page-theta.vercel.app/",
+    githubLink: "https://github.com/Judis07/chatApp_landing_page",
+    previewImage: "",
+  },
+
+  {
+    title: "Food Delivery",
+    skills: ["Next JS", "CSS", "SASS", "MongoDB", "Vercel"],
+    liveLink: "https://food-delivery-next-js.vercel.app/",
+    githubLink: "https://github.com/Judis07/food_delivery-nextJS",
     previewImage: "",
   },
 ];

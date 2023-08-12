@@ -22,7 +22,7 @@ const Card = ({ title, skills, liveLink, githubLink }) => {
 
           {githubLink && (
             <a
-              href={liveLink}
+              href={githubLink}
               target="_blank"
               rel="noopener noreferrer"
               className="text-xl"
