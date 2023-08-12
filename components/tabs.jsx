@@ -12,7 +12,7 @@ const Tabs = () => {
       <div className="shadow-md m-auto py-3  w-3/4	m-auto flex justify-center items-center gap-6 rounded-md border	">
         <div
           className={`font-bold text-xl cursor-pointer  py-2 px-4 rounded-md ${
-            activeTab === 1 && "bg-[#A8B4FF] text-white"
+            activeTab === 1 && "bg-[#EAECF9]"
           }`}
           onClick={() => setActiveTab(1)}
         >
@@ -20,7 +20,7 @@ const Tabs = () => {
         </div>
         <div
           className={`font-bold text-xl cursor-pointer  py-2 px-4 rounded-md ${
-            activeTab === 2 && "bg-[#A8B4FF] text-white"
+            activeTab === 2 && "bg-[#EAECF9]"
           }`}
           onClick={() => setActiveTab(2)}
         >
