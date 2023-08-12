@@ -10,14 +10,14 @@ const Footer = () => {
               Interested in connecting?
             </h3>
 
-            <p className="basis-1/2 text-xl">
-              If you are seeking a modern and dynamic website for your
-              business,startup or personal use? I am available for work. Feel
-              free to reach out to me directly via{" "}
+            <p className="basis-1/2 text-base">
+              If you are seeking a modern and dynamic website for your business,
+              startup or personal use? I am available for work. Feel free to
+              reach out to me directly via{" "}
               <a className="font-bold " href="mailto:arvindnexus732@gmail.com">
-                email{" "}
+                email
               </a>
-              address. I'm looking forward to connecting with you .
+              . I'm looking forward to connecting with you .
             </p>
           </div>
 
