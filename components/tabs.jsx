@@ -14,7 +14,7 @@ const Tabs = () => {
           }`}
           onClick={() => setActiveTab(1)}
         >
-          Professional Work
+          Professional Projects
         </div>
         <div
           className={`font-bold text-xl cursor-pointer  py-2 px-4 rounded-md ${
@@ -22,7 +22,7 @@ const Tabs = () => {
           }`}
           onClick={() => setActiveTab(2)}
         >
-          Personal Work
+          Personal Projects
         </div>
       </div>
 
