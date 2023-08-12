@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import Card from "./card";
+import { professionalProjects } from "@/utils/data";
 
 const Tabs = () => {
   const [activeTab, setActiveTab] = useState(1);
@@ -28,7 +30,11 @@ const Tabs = () => {
 
       <div className="mt-8 mb-8">
         {activeTab === 1 ? (
-          <div>Tab one content</div>
+          <div className="grid grid-cols-3 gap-6">
+            {professionalProjects.map((project) => (
+              <Card key={project.title} {...project} />
+            ))}
+          </div>
         ) : (
           <div>Tab two content</div>
         )}
