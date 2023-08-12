@@ -22,7 +22,8 @@ export const professionalProjects = [
     skills: ["Next Js", "CSS", "SASS", "Ant Design", "MongoDB", "Vercel"],
     liveLink: "https://idt.iion.io/dashboard",
     githubLink: "",
-    previewImage: "",
+    previewImage:
+      "https://res.cloudinary.com/dyvivj6d5/image/upload/v1691848570/Screenshot_2023-08-12_at_7.26.03_PM_jbenmc.png",
   },
 
   {
@@ -38,7 +39,8 @@ export const professionalProjects = [
     ],
     liveLink: "https://go.iion.io/",
     githubLink: "",
-    previewImage: "",
+    previewImage:
+      "https://res.cloudinary.com/dyvivj6d5/image/upload/v1691848629/Screenshot_2023-08-12_at_7.27.04_PM_bnrppz.png",
   },
 
   {
@@ -46,7 +48,8 @@ export const professionalProjects = [
     skills: ["Gatsby JS", "CSS", "SASS", "Ant Design", "MongoDB", "Vercel"],
     liveLink: "https://www.upzyde.com/",
     githubLink: "",
-    previewImage: "",
+    previewImage:
+      "https://res.cloudinary.com/dyvivj6d5/image/upload/v1691848701/Screenshot_2023-08-12_at_7.28.14_PM_jgfv3e.png",
   },
 
   {
@@ -63,7 +66,8 @@ export const professionalProjects = [
     ],
     liveLink: "https://cpmcalculators.com/",
     githubLink: "",
-    previewImage: "",
+    previewImage:
+      "https://res.cloudinary.com/dyvivj6d5/image/upload/v1691848801/Screenshot_2023-08-12_at_7.29.57_PM_q5jcfz.png",
   },
 ];
 
@@ -73,14 +77,16 @@ export const personalProjects = [
     skills: ["HTML", "CSS", "Javascript", "Vercel"],
     liveLink: "https://cryptocart.vercel.app/",
     githubLink: "https://github.com/Judis07/crypto-cart",
-    previewImage: "",
+    previewImage:
+      "https://res.cloudinary.com/dyvivj6d5/image/upload/v1691848860/Screenshot_2023-08-12_at_7.30.56_PM_lfjhgk.png",
   },
   {
     title: "ChatApp Landing Page",
     skills: ["HTML", "CSS", "Figma", "Vercel"],
     liveLink: "https://chat-app-landing-page-theta.vercel.app/",
     githubLink: "https://github.com/Judis07/chatApp_landing_page",
-    previewImage: "",
+    previewImage:
+      "https://res.cloudinary.com/dyvivj6d5/image/upload/v1691848978/Screenshot_2023-08-12_at_7.32.53_PM_ccily2.png",
   },
 
   {
@@ -88,6 +94,7 @@ export const personalProjects = [
     skills: ["Next JS", "CSS", "SASS", "MongoDB", "Vercel"],
     liveLink: "https://food-delivery-next-js.vercel.app/",
     githubLink: "https://github.com/Judis07/food_delivery-nextJS",
-    previewImage: "",
+    previewImage:
+      "https://res.cloudinary.com/dyvivj6d5/image/upload/v1691848928/Screenshot_2023-08-12_at_7.32.03_PM_jsuxy7.png",
   },
 ];

@@ -1,14 +1,19 @@
 import Image from "next/image";
 import { AiOutlineLink, AiOutlineGithub } from "react-icons/ai";
 
-const Card = ({ title, skills, liveLink, githubLink }) => {
+const Card = ({ title, skills, liveLink, githubLink, previewImage }) => {
   return (
-    <div className="shadow-md rounded">
-      <div>
-        <Image src={"/landingPreview.svg"} width={300} height={200} alt="" />
+    <div className="shadow-md rounded-lg	overflow-hidden flex flex-col">
+      <div className="h-[15rem]">
+        <Image
+          src={previewImage ? previewImage : "/landingPreview.svg"}
+          width={300}
+          height={200}
+          alt=""
+        />
       </div>
 
-      <div className="p-4">
+      <div className="p-4 basis-1/4">
         <h3 className="font-bold mb-2 text-xl">{title}</h3>
         <div className="flex mb-4  gap-3">
           <a
