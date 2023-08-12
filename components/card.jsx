@@ -1,6 +1,7 @@
 import Image from "next/image";
+import { AiOutlineLink, AiOutlineGithub } from "react-icons/ai";
 
-const Card = ({ title, skills, liveLink }) => {
+const Card = ({ title, skills, liveLink, githubLink }) => {
   return (
     <div className="shadow-md rounded">
       <div>
@@ -8,7 +9,28 @@ const Card = ({ title, skills, liveLink }) => {
       </div>
 
       <div className="p-4">
-        <h3 className="font-bold mb-4 text-xl">{title}</h3>
+        <h3 className="font-bold mb-2 text-xl">{title}</h3>
+        <div className="flex mb-4  gap-3">
+          <a
+            href={liveLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xl"
+          >
+            <AiOutlineLink />
+          </a>
+
+          {githubLink && (
+            <a
+              href={liveLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl"
+            >
+              <AiOutlineGithub />
+            </a>
+          )}
+        </div>
 
         <div className="flex flex-wrap gap-3 my-4">
           {skills.map((skill) => (
@@ -19,24 +41,6 @@ const Card = ({ title, skills, liveLink }) => {
               {skill}
             </span>
           ))}
-        </div>
-
-        <div className="mt-6 flex justify-end gap-3">
-          <a
-            href={liveLink}
-            target="_blank"
-            className="text-xs underline hover:text-blue-600"
-          >
-            Live Link
-          </a>
-
-          <a
-            href={liveLink}
-            target="_blank"
-            className="text-xs underline hover:text-blue-600"
-          >
-            Github Link
-          </a>
         </div>
       </div>
     </div>
