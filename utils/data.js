@@ -11,6 +11,7 @@ export const skills = [
   "Express",
   "MongoDB",
   "GIT",
-  "GITHUB",
+  "Github",
+  "Figma",
   "Vercel",
 ];
