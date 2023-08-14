@@ -2,7 +2,10 @@ import Container from "./container";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#EAECF9] text-black my-5 py-7 h-2/5">
+    <footer
+      id="connect-section"
+      className="bg-[#EAECF9] text-black my-5 py-7 h-2/5"
+    >
       <Container>
         <section className="flex flex-col justify-between h-full">
           <div className="flex justify-between mt-8">
@@ -14,7 +17,7 @@ const Footer = () => {
               If you are seeking a modern and dynamic website for your business,
               startup or personal use? I am available for work. Feel free to
               reach out to me directly via{" "}
-              <a className="font-bold " href="mailto:arvindnexus732@gmail.com">
+              <a className="font-bold " href="mailto:arvind.nexus06@gmail.com">
                 email
               </a>
               . I'm looking forward to connecting with you .
