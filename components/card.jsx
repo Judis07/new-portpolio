@@ -4,7 +4,7 @@ import { AiOutlineLink, AiOutlineGithub } from "react-icons/ai";
 const Card = ({ title, skills, liveLink, githubLink, previewImage }) => {
   return (
     <div className="shadow-md rounded-lg	overflow-hidden flex flex-col">
-      <div className="h-[15rem]">
+      <div className="h-[15rem] max-xl:h-[13rem]  ">
         <a href={liveLink} target="_blank" rel="noopener noreferrer">
           <Image
             src={previewImage ? previewImage : "/landingPreview.svg"}

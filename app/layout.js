@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={mulish.className}>
-        <main className="p-4 h-screen">{children}</main>
+        <main className="p-4 h-screen max-md:h-auto">{children}</main>
       </body>
     </html>
   );

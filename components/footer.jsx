@@ -8,7 +8,7 @@ const Footer = () => {
     >
       <Container>
         <section className="flex flex-col justify-between h-full">
-          <div className="flex justify-between mt-8">
+          <div className="flex justify-between gap-4 mt-8">
             <h3 className="text-4xl font-bold basis-1/2">
               Interested in connecting?
             </h3>

@@ -9,7 +9,7 @@ const Tabs = () => {
 
   return (
     <section>
-      <div className="shadow-md m-auto py-3  w-3/4	m-auto flex justify-center items-center gap-6 rounded-md border	">
+      <div className="shadow-md m-auto py-3  w-3/4	m-auto flex justify-center items-center gap-6 rounded-md border	 max-md:w-full">
         <div
           className={`font-bold text-xl cursor-pointer  py-2 px-4 rounded-md ${
             activeTab === 1 && "bg-[#EAECF9]"
@@ -30,13 +30,13 @@ const Tabs = () => {
 
       <div className="mt-8 mb-8">
         {activeTab === 1 ? (
-          <div className="grid grid-cols-3 gap-6">
+          <div className="grid grid-cols-3 gap-6 max-lg:grid-cols-2 max-lg:w-10/12 max-lg:m-auto max-mid:w-full">
             {professionalProjects.map((project) => (
               <Card key={project.title} {...project} />
             ))}
           </div>
         ) : (
-          <div className="grid grid-cols-3 gap-6">
+          <div className="grid grid-cols-3 gap-6 max-lg:grid-cols-2 max-lg:w-10/12 max-lg:m-auto max-mid:w-full">
             {personalProjects.map((project) => (
               <Card key={project.title} {...project} />
             ))}
